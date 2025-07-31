@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.6",
+	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Snakes",
+			"Name": "snakes",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -17,6 +17,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
 		}
 	]
 }

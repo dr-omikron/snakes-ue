@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Snakes : ModuleRules
+public class snakes : ModuleRules
 {
-	public Snakes(ReadOnlyTargetRules Target) : base(Target)
+	public snakes(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
